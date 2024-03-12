@@ -4,8 +4,8 @@ kind: Pod
 metadata:
   creationTimestamp: null
   labels:
-    run: gop-fileserver
-  name: gop-fileserver
+    run: gop-file-server
+  name: gop-file-server
 spec:
   volumes:
   - name: data-store
