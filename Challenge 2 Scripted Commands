@@ -1,14 +1,14 @@
 ### data-pv
-kubectl apply -f devops/kubernetes-challenges/challenge-2/fileserver-pv.yaml
+kubectl apply -f Kubernetes-Challenge-2/fileserver-pv.yaml
 
 ### data-pvc
-kubectl apply -f devops/kubernetes-challenges/challenge-2/fileserver-pvc.yaml
+kubectl apply -f Kubernetes-Challenge-2/fileserver-pvc.yaml
 
 ### gop-file-server
-kubectl apply -f devops/kubernetes-challenges/challenge-2/fileserver-pod.yaml
+kubectl apply -f Kubernetes-Challenge-2/fileserver-pod.yaml
 
 ### gop-fx-service
-kubectl apply -f devops/kubernetes-challenges/challenge-2/fileserver-svc.yaml
+kubectl apply -f Kubernetes-Challenge-2/fileserver-svc.yaml
 
 ### Validate pv & pvc
 kubectl get pv
